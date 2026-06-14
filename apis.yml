@@ -1,0 +1,56 @@
+aid: gqlgen
+name: gqlgen
+description: "Go library for building GraphQL servers with a schema-first approach,
+  automatic code generation for resolvers and models, DataLoader support, and OpenTelemetry
+  tracing."
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://gqlgen.com/
+baseURL: https://gqlgen.com/
+created: 2026-06-14
+modified: 2026-06-14
+specificationVersion: '0.19'
+tags:
+  - GraphQL
+  - Go
+  - Code Generation
+  - Schema First
+  - Open Source
+apis:
+  - aid: gqlgen:graphql-api
+    name: gqlgen GraphQL API
+    description: "Schema-first Go library for building type-safe GraphQL servers with
+      automatic code generation, resolver scaffolding, DataLoader integration, subscriptions,
+      and middleware support."
+    tags:
+      - GraphQL
+      - Go
+      - Code Generation
+      - Schema First
+    humanURL: https://gqlgen.com/getting-started/
+    baseURL: https://gqlgen.com/
+    properties:
+      - url: https://gqlgen.com/getting-started/
+        type: Documentation
+      - url: graphql/gqlgen-graphql.md
+        type: GraphQL
+common:
+  - url: https://gqlgen.com/
+    type: Website
+  - url: https://gqlgen.com/getting-started/
+    type: Documentation
+  - url: https://www.linkedin.com/posts/alsgladkikh_graphql-in-go-gqlgen-tutorial-activity-7086977174150221824-Ksa8
+    type: LinkedIn
+  - url: https://github.com/99designs/gqlgen
+    type: GitHubOrganization
+  - url: https://pkg.go.dev/github.com/99designs/gqlgen
+    type: Pricing
+  - url: plans/gqlgen-plans.md
+    type: Plans
+  - url: rate-limits/gqlgen-rate-limits.md
+    type: RateLimits
+  - url: finops/gqlgen-finops.md
+    type: FinOps
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
