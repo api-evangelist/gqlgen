@@ -4,7 +4,7 @@ description: "Go library for building GraphQL servers with a schema-first approa
   automatic code generation for resolvers and models, DataLoader support, and OpenTelemetry
   tracing."
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://gqlgen.com/
 baseURL: https://gqlgen.com/
 created: 2026-06-14
