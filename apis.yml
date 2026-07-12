@@ -35,6 +35,8 @@ apis:
       - url: graphql/gqlgen-graphql.md
         type: GraphQL
 common:
+  - type: DomainSecurity
+    url: security/gqlgen-domain-security.yml
   - url: https://gqlgen.com/
     type: Website
   - url: https://gqlgen.com/getting-started/
