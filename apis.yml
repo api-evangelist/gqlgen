@@ -25,6 +25,12 @@ tags:
   - GraphQL
   - Go
   - Code Generation
+  - Schema-First
+  - Open-Source
+tags_raw:
+  - GraphQL
+  - Go
+  - Code Generation
   - Schema First
   - Open Source
 apis:
@@ -34,6 +40,11 @@ apis:
       automatic code generation, resolver scaffolding, DataLoader integration, subscriptions,
       and middleware support."
     tags:
+      - GraphQL
+      - Go
+      - Code Generation
+      - Schema-First
+    tags_raw:
       - GraphQL
       - Go
       - Code Generation
