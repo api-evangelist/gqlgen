@@ -36,7 +36,7 @@ tags:
   - GraphQL
   - Go
   - Code Generation
-  - Schema-First
+  - Schema First
   - Open-Source
 tags_raw:
   - GraphQL
@@ -54,7 +54,7 @@ apis:
       - GraphQL
       - Go
       - Code Generation
-      - Schema-First
+      - Schema First
     tags_raw:
       - GraphQL
       - Go
