@@ -37,13 +37,14 @@ tags:
   - Go
   - Code Generation
   - Schema-First
-  - Open-Source
+  - Open Source
 tags_raw:
   - GraphQL
   - Go
   - Code Generation
   - Schema First
   - Open Source
+  - Open-Source
 apis:
   - aid: gqlgen:graphql-api
     name: gqlgen GraphQL API
@@ -61,7 +62,6 @@ apis:
       - Code Generation
       - Schema First
     humanURL: https://gqlgen.com/getting-started/
-    baseURL: https://gqlgen.com/
     properties:
       - url: https://gqlgen.com/getting-started/
         type: Documentation
