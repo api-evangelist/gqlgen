@@ -64,36 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-gqlgen is a Go library for building GraphQL servers with a schema-first approach, automatic code generation for resolvers and models, DataLoader support, and OpenTelemetry tracing. Maintained by 99designs, gqlgen generates type-safe, production-ready GraphQL server code from GraphQL SDL schemas.
+Go library for building GraphQL servers with a schema-first approach, automatic code generation for resolvers and models, DataLoader support, and OpenTelemetry tracing.
 
-## Links
+**Areas:** GraphQL · Go · Code Generation · Schema-First · Open Source
 
-- **Website:** https://gqlgen.com/
-- **Documentation:** https://gqlgen.com/getting-started/
-- **GitHub:** https://github.com/99designs/gqlgen
-- **Go Package:** https://pkg.go.dev/github.com/99designs/gqlgen
+## gqlgen on APIs.io
 
-## Key Features
+Everything profiled for gqlgen is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gqlgen/](https://apis.io/providers/gqlgen/)** — or go straight to one of the APIs or properties below.
 
-- Schema-first development using the GraphQL Schema Definition Language
-- Automatic code generation eliminates repetitive boilerplate
-- Strong type safety — no `map[string]interface{}` patterns
-- DataLoader integration for batched, efficient data fetching
-- Real-time subscriptions
-- Middleware support for request/response processing
-- Query complexity analysis to protect servers from expensive queries
-- OpenTelemetry tracing built in
-- Concurrent field resolver execution with configurable worker pools
+### APIs (1)
 
-## Repository Contents
+- [gqlgen GraphQL API](https://apis.io/apis/gqlgen/graphql-api/) — Schema-first Go library for building type-safe GraphQL servers with automatic code generation, resolver scaffolding, DataLoader integration, subscriptions,…
 
-| Path | Description |
-|------|-------------|
-| `apis.yml` | APIs.json 0.19 catalog entry |
-| `plans/gqlgen-plans.md` | Licensing and plan information |
-| `rate-limits/gqlgen-rate-limits.md` | Rate limit and complexity control details |
-| `finops/gqlgen-finops.md` | Cost and FinOps guidance |
+### Published properties
 
-## Maintainer
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Kin Lane** — kin@apievangelist.com
+#### GraphQL (1)
+
+GraphQL schemas.
+
+- [gqlgen GraphQL API](https://apis.io/graphqls/gqlgen/gqlgen-graphql/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gqlgen Domain Security](https://apis.io/security/gqlgen/gqlgen-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://gqlgen.com/)
+- [Documentation](https://gqlgen.com/getting-started/)
+- [Pricing](https://pkg.go.dev/github.com/99designs/gqlgen)
+- [GitHub](https://github.com/99designs/gqlgen)
+
+## API Evangelist rating
+
+**Kin Score 17.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 34.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 10.5 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gqlgen/](https://apis.io/providers/gqlgen/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for gqlgen: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gqlgen/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
